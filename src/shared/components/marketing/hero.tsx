@@ -1,24 +1,43 @@
-﻿import { Container } from "@/shared/components/ui/container";
-import { Section } from "@/shared/components/ui/section";
+﻿
+import { Button } from "@/components/ui/button";
 import { Badge } from "@/shared/components/ui/badge";
-import { Button } from "@/shared/components/ui/button";
+import { Container } from "@/shared/components/ui/container";
+import { GradientBackground } from "@/shared/components/ui/gradient";
 
 export function Hero() {
   return (
-    <Section className="bg-gradient-to-b from-background to-muted/30 pt-20 pb-16 md:pt-32 md:pb-24">
-      <Container className="text-center flex flex-col items-center gap-6">
-        <Badge>Next-Gen AI Workspace</Badge>
-        <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl max-w-3xl leading-none">
-          Design World-Class Interfaces Using AI
-        </h1>
-        <p className="max-w-[700px] text-muted-foreground md:text-xl">
-          Automate UX audits, generate clean design system assets, and optimize workflows with Nova Studio.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 mt-2">
-          <Button variant="default" className="px-8 h-11 text-base">Get Started for Free</Button>
-          <Button variant="outline" className="px-8 h-11 text-base">Book a Demo</Button>
+    <section className="relative overflow-hidden py-28">
+      <GradientBackground />
+
+      <Container>
+        <div className="mx-auto max-w-4xl text-center">
+          <Badge className="mb-6 rounded-full bg-violet-100 px-4 py-2 text-violet-700 hover:bg-violet-100">
+            ✨ AI Design Workspace
+          </Badge>
+
+          <h1 className="text-5xl font-bold tracking-tight text-slate-900 md:text-7xl">
+            Design Better
+            <br />
+            Interfaces with AI
+          </h1>
+
+          <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-slate-600">
+            Upload UI screenshots and receive professional UX reviews,
+            accessibility audits, AI-powered prompts, and implementation
+            guidance in seconds.
+          </p>
+
+          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <Button size="lg">
+              Start Free
+            </Button>
+
+            <Button variant="outline" size="lg">
+              Watch Demo
+            </Button>
+          </div>
         </div>
       </Container>
-    </Section>
+    </section>
   );
 }
