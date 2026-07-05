@@ -1,39 +1,79 @@
-# Nova Studio Roadmap
+# 🚀 Nova Studio Roadmap
 
-## Phase 1
+## Vision
 
-Foundation
+Nova Studio is an AI-powered design workspace that helps designers and developers review UI, improve UX, generate prompts, and build better digital products.
 
-Authentication
+---
 
-Dashboard
+# Phase 1 — Foundation
 
-Projects
+- [ ] Project Setup
+- [ ] Design System
+- [ ] Landing Page
+- [ ] Authentication
+- [ ] Dashboard Layout
+- [ ] User Profile
 
-## Phase 2
+---
 
-Upload
+# Phase 2 — Workspace
 
-Storage
+- [ ] Projects
+- [ ] Upload Design
+- [ ] Image Storage
+- [ ] Image History
+- [ ] Project Management
 
-Image History
+---
 
-## Phase 3
+# Phase 3 — AI Engine
 
-AI Review
+- [ ] Screenshot Analysis
+- [ ] UX Review
+- [ ] Accessibility Audit
+- [ ] Design Score
+- [ ] Prompt Generator
+- [ ] AI Chat
+- [ ] Report Generation
 
-Prompt Generator
+---
 
-Reports
+# Phase 4 — Collaboration
 
-## Phase 4
+- [ ] Organizations
+- [ ] Team Members
+- [ ] Comments
+- [ ] Shared Projects
+- [ ] Activity Timeline
 
-Billing
+---
 
-Organizations
+# Phase 5 — Business
 
-Settings
+- [ ] Billing
+- [ ] Stripe
+- [ ] Usage Limits
+- [ ] Notifications
+- [ ] Settings
 
-## Phase 5
+---
 
-Launch
+# Phase 6 — Launch
+
+- [ ] Testing
+- [ ] Analytics
+- [ ] SEO
+- [ ] Documentation
+- [ ] Production Deployment
+
+---
+
+# Future Ideas
+
+- [ ] Figma Plugin
+- [ ] VS Code Extension
+- [ ] Browser Extension
+- [ ] Public API
+- [ ] MCP Server
+- [ ] Mobile App

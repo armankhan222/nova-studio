@@ -1,23 +1,61 @@
-﻿# Nova Studio
+﻿# Product Requirements Document
 
-AI Design Workspace
+# Product Name
 
-Mission:
+Nova Studio
 
-Help designers and developers create world-class interfaces using AI.
+---
 
-Target Users
+## Problem
+
+Designers and developers waste time switching between design review tools, AI chatbots, accessibility checkers, prompt generators, and documentation.
+
+Nova Studio combines everything into one workspace.
+
+---
+
+## Target Users
 
 - UI Designers
-- Product Designers
+- UX Designers
 - Frontend Developers
-- Startup Founders
+- Agencies
+- SaaS Companies
+- Startups
+- Students
 
-Core Features
+---
 
-- Screenshot Review
-- UX Audit
+## Core Features
+
+- Authentication
+- Dashboard
+- Projects
+- Image Upload
+- AI Design Review
 - Accessibility Audit
 - Prompt Generator
-- Design Memory
-- AI Reports
+- Reports
+- Billing
+
+---
+
+## MVP
+
+- Landing Page
+- Authentication
+- Dashboard
+- Upload
+- AI Review
+- Prompt Generator
+- History
+
+---
+
+## Future
+
+- AI Chat
+- Organizations
+- Team Collaboration
+- Figma Plugin
+- Browser Extension
